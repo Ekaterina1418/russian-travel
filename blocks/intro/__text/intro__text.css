@@ -1,5 +1,6 @@
 .intro__text {
 width: 70.12%;
+max-width: 690px;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -18,10 +19,15 @@ justify-content: start;
    }
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1023px)and (min-width:768px){
     .intro__text {
-     width: 67.38%;
+     width: 93.75px;
     }
+    }
+    @media screen and (max-width: 767px) and (min-width:320px){
+       .intro__text {
+          width: 90%;
+       }
     }
 
     

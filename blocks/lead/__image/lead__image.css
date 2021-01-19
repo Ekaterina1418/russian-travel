@@ -3,3 +3,8 @@
     padding-top:64px;
     max-width: 984px;
 }
+@media screen and (max-width:767px) and (min-width:320px){
+    .lead__image{
+        padding-top: 44px;
+    }
+}
