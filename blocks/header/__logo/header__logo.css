@@ -1,19 +1,14 @@
 .header__logo {
-   width: 13.76%;
+   width: 176px;
    justify-self: start;
  }
- @media screen and (max-width:1279px) and (min-width:1024px){
+ @media screen and (max-width:1279px) and (min-width:768px){
    .header__logo {
-     width: 17.18%;
+    width: 176px;
    }
  }
- @media screen and(max-width:1024px) and (min-width:768px){
-   .header__logo{
-     width: 22.91%;
-   }
- }
- @media screen and (max-width: 767px){
+  @media screen and (max-width: 767px) and (min-width:320px){
 .header__logo {
-    width: 53%;
+    width: 142px;
 }
  }

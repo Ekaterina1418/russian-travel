@@ -29,18 +29,14 @@
 @media screen and (max-width: 767px) and (min-width:320px){
     .place{
     grid-template-columns: 1fr;
-    padding-bottom: 50px;
-    row-gap: 32px;
+    padding-bottom: 18px;
+    grid-gap: 32px;
     grid-template-areas:"title"
                     "url-heading"
                       "website"
                        "image"
                        "text";
     }
-    .place:first-of-type {
-     padding-top: 56px;
-     }
-                                    
 }
 
 
