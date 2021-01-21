@@ -1,6 +1,6 @@
 .header__logo {
-   width: 176px;
-   justify-self: start;
+  width: 176px;
+  justify-self: start;
  }
  @media screen and (max-width:1279px) and (min-width:768px){
    .header__logo {
