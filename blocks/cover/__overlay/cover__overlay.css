@@ -8,11 +8,11 @@
     text-decoration: none;
     padding: 245px 0;
     background-color: rgba(42, 44, 47,0.3);
-    z-index: 2;
     display: flex;
     align-items:center;
     justify-content: center;
     flex-direction: column;
+    z-index: 2;
 }
 
 .cover__overlay:hover {
